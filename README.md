@@ -1,0 +1,13 @@
+# Phonetic-Game
+Summary: A game that will test your reaction time based on how fast you enter the corresponding letter that appears on screen
+
+Part I: the basics
+  When you start a game, the program shows you a random letter from the alphabet
+  There is a textbox for you to type in the correct phonetic word for that letter, and press enter.
+  if you get it right it goes hooray!and takes you to a new letter
+  if you get it wrong it quickly shows you the correct answer before moving to a new letter
+  when a round is complete it shows your score (you can decide the length of a round).
+  
+Part II: test for speed
+  You're not truly trained in the phonetic alphabet until you have instantaneous recall. So don't count an answer correct unless the 
+  user types in the correct answer quickly enough. I think I set mine to something like 2-3 seconds or something like that.
