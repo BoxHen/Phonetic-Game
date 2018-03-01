@@ -5,6 +5,7 @@ public class Game {
     private char[] alpha;
     private char randAlpha;
     private char[] upperAndLower;
+    private long elapsedTime;
 
     public void printAlpha(char array[]) {
         int index = 0;
@@ -28,11 +29,16 @@ public class Game {
     public void userInput(){
         Scanner Reading = new Scanner(System.in);//reading from input
         System.out.println("What was the letter?");
-        String strUpper = Reading.nextLine();
+        long startTime = System.currentTimeMillis();
+        String strUpper = Reading.nextLine(); // waits for user input
+        long stopTime = System.currentTimeMillis();
+        long elapsedTime = stopTime - startTime;
+
         String strLower = strUpper.toUpperCase(); // allows for lower and upper case
         char genAlphaUpper = strUpper.charAt(0); char genAlphaLower = strLower.charAt(0); // since input is read as string, I convert these to characters
         char[] upperAndLower = {genAlphaUpper, genAlphaLower};
         this.upperAndLower = upperAndLower;
+        this.elapsedTime = elapsedTime;
     }
     /*----------------------------------------------Getters-------------------------------------------------------*/
     public char[] getAlpha() {
@@ -46,5 +52,10 @@ public class Game {
     public char[] getUpperAndLower() {
         return upperAndLower;
     }
+
+    public long getElapsedTime() {
+        return elapsedTime;
+    }
+
 /*------------------------------------------------------------------------------------------------------------*/
 }
