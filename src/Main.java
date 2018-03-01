@@ -2,7 +2,7 @@ public class Main {
     private static final int numGames = 5; // determines number of games
 
     public static void main(String[] args) {
-        char alpha[] = new char[26]; // can also write char[] alpha
+        char[] alpha = new char[26];
         char randAlpha;
         char[] upperAndLower;
         long elapsedTime;
