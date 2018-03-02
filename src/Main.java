@@ -8,6 +8,7 @@ public class Main {
         long elapsedTime;
 
         Game phoneticGame = new Game();
+        phoneticGame.readyGame();
         phoneticGame.printAlpha(alpha);
         alpha = phoneticGame.getAlpha();
 

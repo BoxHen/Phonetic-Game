@@ -7,6 +7,16 @@ public class Game {
     private char[] upperAndLower;
     private long elapsedTime;
 
+    public void readyGame(){ // wait for user to press key to start
+        System.out.println("Press the Enter key to start the game");
+        try
+        {
+            System.in.read();
+        }
+        catch(Exception e)
+        {}
+    }
+
     public void printAlpha(char array[]) {
         int index = 0;
         for (char alphabets = 'A'; alphabets <= 'Z'; alphabets++) {
