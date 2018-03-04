@@ -6,6 +6,9 @@ public class Game {
     private char randAlpha;
     private char[] upperAndLower;
     private long elapsedTime;
+    private String[] randomStrings;
+    private String strUpper;
+    private String strLower;
 
     public void readyGame(){ // wait for user to press key to start
         System.out.println("Press the Enter key to start the game");
@@ -31,9 +34,26 @@ public class Game {
         /*Returns a pseudorandom, uniformly distributed int value between 0
         (inclusive) and the specified value (exclusive), drawn from this random number generator's sequence.*/
         char randAlpha = array[R]; // chooses a random letter
-        System.out.println(randAlpha);
+        //System.out.println(randAlpha);
         this.randAlpha = randAlpha;
+    }
 
+    public void randomWord(int numberOfWords, char array[])
+    {
+        String[] randomStrings = new String[numberOfWords];
+        Random random = new Random();
+        for(int i = 0; i < numberOfWords; i++)
+        {
+            char[] word = new char[random.nextInt(8)+3]; // words of length 3 through 10. (1 and 2 letter words are boring.)
+            for(int j = 0; j < word.length; j++)
+            {
+                randomAlphabet(array);
+                word[j] = getRandAlpha();
+                //word[j] = (char)('a' + random.nextInt(26));
+            }
+            randomStrings[i] = new String(word);
+        }
+        this.randomStrings = randomStrings;
     }
 
     public void userInput(){
@@ -47,7 +67,9 @@ public class Game {
         String strLower = strUpper.toUpperCase(); // allows for lower and upper case
         char genAlphaUpper = strUpper.charAt(0); char genAlphaLower = strLower.charAt(0); // since input is read as string, I convert these to characters
         char[] upperAndLower = {genAlphaUpper, genAlphaLower};
-        this.upperAndLower = upperAndLower;
+        this.strLower = strLower; // used for word game
+        this.strUpper = strUpper;
+        this.upperAndLower = upperAndLower; // used for letter game
         this.elapsedTime = elapsedTime;
     }
     /*----------------------------------------------Getters-------------------------------------------------------*/
@@ -62,6 +84,12 @@ public class Game {
     public char[] getUpperAndLower() {
         return upperAndLower;
     }
+
+    public String[] getRandomStrings() { return randomStrings; }
+
+    public String getStrUpper() { return strUpper; }
+
+    public String getStrLower() { return strLower; }
 
     public long getElapsedTime() {
         return elapsedTime;
