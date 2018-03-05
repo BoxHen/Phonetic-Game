@@ -1,5 +1,9 @@
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+import java.io.*;
 
 public class Game {
     private char[] alpha;
@@ -7,6 +11,7 @@ public class Game {
     private char[] upperAndLower;
     private long elapsedTime;
     private String[] randomStrings;
+    private String randomStringWord;
     private String strUpper;
     private String strLower;
 
@@ -56,6 +61,26 @@ public class Game {
         this.randomStrings = randomStrings;
     }
 
+    public void readFile(){
+        Random random = new Random();
+        try{ // might not be needed delim
+            BufferedReader inFile1 = new BufferedReader(new FileReader("Dictionary.txt"));
+            List<String> temps = new ArrayList<String>();
+
+            String line;
+            while((line = inFile1.readLine()) != null) { // while there is more in the file to read from
+                temps.add(line);
+            }
+            inFile1.close();
+            String[] wordArray = temps.toArray(new String[0]); // convert the array list to an array
+            //NOTE: new String[0] is needed for types cast into string
+            this.randomStringWord = wordArray[random.nextInt((wordArray.length)+1)];
+        } catch (IOException e){
+            System.out.println("exception thrown");
+        }
+
+    }
+
     public void userInput(){
         Scanner Reading = new Scanner(System.in);//reading from input
         System.out.println("What was the letter?");
@@ -86,6 +111,8 @@ public class Game {
     }
 
     public String[] getRandomStrings() { return randomStrings; }
+
+    public String getRandomStringWord() { return randomStringWord; }
 
     public String getStrUpper() { return strUpper; }
 

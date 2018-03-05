@@ -19,9 +19,9 @@ public class GuessGibberishWord {
             wordGame.userInput();
             strLower = wordGame.getStrLower();
             strUpper = wordGame.getStrUpper();
-            System.out.println(strLower); System.out.println(strUpper);
+            System.out.println(strLower); System.out.println(strUpper); // delete later
             elapsedTime = wordGame.getElapsedTime();
-            if (elapsedTime >= 10000) { // waits for specified time in ms (1000ms = 1s)
+            if (elapsedTime >= 10000) {
                 System.out.println("TOO SLOW!!! You answered in: " + elapsedTime / 1000 + " seconds\n");
                 } else if (strLower.equals(randWord[0]) || strUpper.equals(randWord[0])) {
                 // NOTE: have to use .equals instead of  == since == will see if it refers to the same object and not the same value
