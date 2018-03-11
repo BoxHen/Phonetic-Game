@@ -8,8 +8,14 @@ public class Main {
 //        GuessGibberishWord game2 = new GuessGibberishWord();
 //        game2.WordGuessGib(5);
 /*------------------------------runs real word guessing game----------------------------------*/
-        GuessRealWord game3 = new GuessRealWord();
-        game3.WordGuessReal(2);
+//        GuessRealWord game3 = new GuessRealWord();
+//        game3.WordGuessReal(2);
+
+        LevenshteinDistance test = new LevenshteinDistance();
+        test.LD("hello", "helllo");
+        System.out.println(test.getFinalCost());
+
+
     } // end main
 
 } // end main class

@@ -6,7 +6,8 @@ public class LevenshteinDistance {
         int min = a;
         if (b < min) {
             min = b;
-        }else if (c < min) {
+        }
+        if (c < min) {
             min = c;
         }
         this.min = min;
@@ -34,12 +35,12 @@ public class LevenshteinDistance {
         } // set up rows based off length of n
         for (j = 0; j <= m; j++) {
             d[0][j] = j;
-        } // set up rows based off length of m
+        } // set up columns based off length of m
 
         for (i = 1; i <= n; i++) {
             s_i = s.charAt(i - 1);
             for (j = 1; j <= m; j++) {
-                t_j = s.charAt(j - 1);
+                t_j = t.charAt(j - 1);
 
                 if (s_i == t_j){
                     cost = 0;
@@ -49,7 +50,8 @@ public class LevenshteinDistance {
 
                 Minimum(d[i - 1][j], d[i - 1][j - 1], d[i][j - 1]);
                 // cell is based off of cell above,left,and  diagonally above and to the left
-                d[i][j] = (getMin()) + cost;
+                d[i][j] = getMin() + cost;
+                System.out.println(getMin() + cost);
             }
         }
         this.finalCost = d[n][m];
