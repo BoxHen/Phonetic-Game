@@ -89,13 +89,18 @@ public class Game {
         long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
 
-        String strLower = strUpper.toUpperCase(); // allows for lower and upper case
-        char genAlphaUpper = strUpper.charAt(0); char genAlphaLower = strLower.charAt(0); // since input is read as string, I convert these to characters
-        char[] upperAndLower = {genAlphaUpper, genAlphaLower};
-        this.strLower = strLower; // used for word game
-        this.strUpper = strUpper;
-        this.upperAndLower = upperAndLower; // used for letter game
-        this.elapsedTime = elapsedTime;
+        if(strUpper.length() == 0) {
+            System.out.println("please enter the word");
+        }else {
+            String strLower = strUpper.toLowerCase(); // allows for lower and upper case
+            char genAlphaUpper = strUpper.charAt(0);
+            char genAlphaLower = strLower.charAt(0); // since input is read as string, I convert these to characters
+            char[] upperAndLower = {genAlphaUpper, genAlphaLower};
+            this.strLower = strLower; // used for word game
+            this.strUpper = strUpper;
+            this.upperAndLower = upperAndLower; // used for letter game
+            this.elapsedTime = elapsedTime;
+        }
     }
     /*----------------------------------------------Getters-------------------------------------------------------*/
     public char[] getAlpha() {

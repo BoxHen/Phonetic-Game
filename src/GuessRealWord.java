@@ -17,7 +17,7 @@ public class GuessRealWord {
             wordGameReal.userInput();
             strLower = wordGameReal.getStrLower();
             strUpper = wordGameReal.getStrUpper();
-            System.out.println(strLower); System.out.println(strUpper);
+            //System.out.println(strLower); System.out.println(strUpper);
             elapsedTime = wordGameReal.getElapsedTime();
             if (elapsedTime >= 10000) { // waits for specified time in ms (1000ms = 1s)
                 System.out.println("TOO SLOW!!! You answered in: " + elapsedTime / 1000 + " seconds\n");
@@ -25,7 +25,13 @@ public class GuessRealWord {
                 // NOTE: have to use .equals instead of  == since == will see if it refers to the same object and not the same value
                 System.out.println("CORRECT! You answered in: " + elapsedTime / 1000 + " seconds\n");
             } else {
-                System.out.println("WRONG! The correct choice is: " + randWord + "\n");
+                LevenshteinDistance correction = new LevenshteinDistance();
+                correction.LD(strLower, randWord);
+                if(correction.getFinalCost() <= 1){ // if you are one letter off
+                    System.out.println("Did you mean: " + randWord + "\n");
+                }else{
+                    System.out.println("WRONG! \n");
+                }
             }
         }
     }

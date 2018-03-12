@@ -48,10 +48,9 @@ public class LevenshteinDistance {
                     cost = 1;
                 }
 
-                Minimum(d[i - 1][j], d[i - 1][j - 1], d[i][j - 1]);
+                Minimum(d[i - 1][j] + 1, d[i - 1][j - 1] + cost, d[i][j - 1] + 1);
                 // cell is based off of cell above,left,and  diagonally above and to the left
-                d[i][j] = getMin() + cost;
-                System.out.println(getMin() + cost);
+                d[i][j] = getMin();
             }
         }
         this.finalCost = d[n][m];
