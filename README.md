@@ -11,3 +11,10 @@ Part I: the basics
 Part II: test for speed
   You're not truly trained in the phonetic alphabet until you have instantaneous recall. So don't count an answer correct unless the 
   user types in the correct answer quickly enough. I think I set mine to something like 2-3 seconds or something like that.
+
+Part III: Use real words instead of just letters
+  typing appearing letters is way to easy! The should be improved to show a series of letters. A gibberish word is first implemented where 
+  the game displays a random series of letters. Improve upon this to show a coherent series of letters.
+
+Part IV: Levenshtein distance
+  Typing fast with accuracy can be a hard thing to do. Mistakes are easily made but the game should be able to guess what you were trying to write

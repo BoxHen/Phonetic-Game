@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a719e666-8952-4594-941e-6636925431b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Phonetic Game/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/src/Game.java" afterPath="$PROJECT_DIR$/../Phonetic Game/src/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java" afterPath="$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/src/LevenshteinDistance.java" afterPath="$PROJECT_DIR$/../Phonetic Game/src/LevenshteinDistance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/src/Main.java" afterPath="$PROJECT_DIR$/../Phonetic Game/src/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../Phonetic Game/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessGibberishWord.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GuessGibberishWord.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/GuessGibberishWord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
@@ -61,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
+            <state relative-caret-position="-38">
               <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -118,7 +114,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -295,15 +291,15 @@
       <updated>1519871110354</updated>
       <workItem from="1519871115080" duration="6146000" />
       <workItem from="1519970639042" duration="20388000" />
-      <workItem from="1520736731464" duration="15604000" />
+      <workItem from="1520736731464" duration="15716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42138000" />
+    <option name="totallyTimeSpent" value="42250000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -425,14 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/GuessGibberishWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -449,6 +437,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/GuessLetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -457,13 +455,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/Game.java">
+    <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/GuessGibberishWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="80" lean-forward="false" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
