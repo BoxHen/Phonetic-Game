@@ -18,3 +18,7 @@ Part III: Use real words instead of just letters
 
 Part IV: Levenshtein distance
   Typing fast with accuracy can be a hard thing to do. Mistakes are easily made but the game should be able to guess what you were trying to write
+
+Part V: SoundEx
+  Using the Levenshtein distance will pick up on certain words but other words that sound the same but are spelled differently will not be registered. 
+  Implement soundEx to improve the functionality of our simple spell check.
