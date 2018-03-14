@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a719e666-8952-4594-941e-6636925431b9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Phonetic Game/src/SoundEx.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Phonetic Game/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../Phonetic Game/out/" />
@@ -60,7 +61,7 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
+            <state relative-caret-position="1326">
               <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,11 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessRealWord.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GuessRealWord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
+            <state relative-caret-position="544">
               <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoundEx.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/SoundEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="727">
+              <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -105,6 +116,7 @@
         <option value="$PROJECT_DIR$/../Phonetic Game/src/Main.java" />
         <option value="$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java" />
         <option value="$PROJECT_DIR$/../Phonetic Game/src/Game.java" />
+        <option value="$PROJECT_DIR$/../Phonetic Game/src/SoundEx.java" />
       </list>
     </option>
   </component>
@@ -291,12 +303,12 @@
       <updated>1519871110354</updated>
       <workItem from="1519871115080" duration="6146000" />
       <workItem from="1519970639042" duration="20388000" />
-      <workItem from="1520736731464" duration="15784000" />
+      <workItem from="1520736731464" duration="21458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42318000" />
+    <option name="totallyTimeSpent" value="47992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -447,7 +459,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
+        <state relative-caret-position="1326">
           <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -457,8 +469,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
+        <state relative-caret-position="544">
           <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/SoundEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
           <folding />
         </state>
       </provider>
