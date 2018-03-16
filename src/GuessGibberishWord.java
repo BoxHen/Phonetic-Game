@@ -25,6 +25,7 @@ public class GuessGibberishWord {
                 System.out.println("TOO SLOW!!! You answered in: " + elapsedTime / 1000 + " seconds\n");
                 } else if (strLower.equals(randWord[0]) || strUpper.equals(randWord[0])) {
                 // NOTE: have to use .equals instead of  == since == will see if it refers to the same object and not the same value
+                // double equals basically checks to see if the two Objects are the same reference
                 System.out.println("CORRECT! You answered in: " + elapsedTime / 1000 + " seconds\n");
             } else {
                 System.out.println("WRONG! The correct choice is: " + randWord[0] + "\n");

@@ -25,9 +25,16 @@ public class GuessRealWord {
                 // NOTE: have to use .equals instead of  == since == will see if it refers to the same object and not the same value
                 System.out.println("CORRECT! You answered in: " + elapsedTime / 1000 + " seconds\n");
             } else {
-                LevenshteinDistance correction = new LevenshteinDistance();
+                LevenshteinDistance correction = new LevenshteinDistance(); SoundEx correctionImproved = new SoundEx();
+
                 correction.LD(strLower, randWord);
-                if(correction.getFinalCost() <= 1){ // if you are one letter off
+                correctionImproved.Encode(strLower);
+                String c1 = correctionImproved.getCode();
+
+                correctionImproved.Encode(randWord);
+                String c2 = correctionImproved.getCode();
+
+                if(correction.getFinalCost() <= 1 || c1.equals(c2)){ // if you are one letter off
                     System.out.println("Did you mean: " + randWord + "\n");
                 }else{
                     System.out.println("WRONG! \n");

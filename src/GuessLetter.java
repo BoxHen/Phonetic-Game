@@ -21,7 +21,7 @@ public class GuessLetter {
             elapsedTime = phoneticGame.getElapsedTime();
             if (elapsedTime >= 3000) { // waits for specified time in ms (1000ms = 1s)
                 System.out.println("TOO SLOW!!! You answered in: " + elapsedTime / 1000 + " seconds\n");
-            } else if (upperAndLower[0] == randAlpha || upperAndLower[1] == randAlpha) {
+            } else if (upperAndLower[0] == randAlpha || upperAndLower[1] == randAlpha) { // this works but to be safe .equals would be better
                 System.out.println("CORRECT! You answered in: " + elapsedTime / 1000 + " seconds\n");
             } else {
                 System.out.println("WRONG! The correct choice is: " + randAlpha + "\n");

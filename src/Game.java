@@ -6,15 +6,25 @@ import java.util.Scanner;
 import java.io.*;
 
 public class Game {
+
+/*---------------------printAlpha variables----------------------*/
     private char[] alpha;
+
+/*-------------------randomAlphabet variables----------------------*/
     private char randAlpha;
-    private char[] upperAndLower;
-    private long elapsedTime;
+
+/*---------------------randWord variables-------------------------*/
     private String[] randomStrings;
+
+/*---------------------readFile variables-------------------------*/
     private String randomStringWord;
+
+/*--------------------userInput variables------------------------*/
     private String strUpper;
     private String strLower;
-
+    private char[] upperAndLower;
+    private long elapsedTime;
+/*-----------------------------methods--------------------------------*/
     public void readyGame(){ // wait for user to press key to start
         System.out.println("Press the Enter key to start the game");
         try
@@ -63,7 +73,7 @@ public class Game {
 
     public void readFile(){
         Random random = new Random();
-        try{ // might not be needed delim
+        try{
             BufferedReader inFile1 = new BufferedReader(new FileReader("Dictionary.txt"));
             List<String> temps = new ArrayList<String>();
 
