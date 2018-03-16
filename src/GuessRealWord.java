@@ -19,7 +19,7 @@ public class GuessRealWord {
             strUpper = wordGameReal.getStrUpper();
             //System.out.println(strLower); System.out.println(strUpper);
             elapsedTime = wordGameReal.getElapsedTime();
-            if (elapsedTime >= 10000) { // waits for specified time in ms (1000ms = 1s)
+            if (elapsedTime >= 5000) { // waits for specified time in ms (1000ms = 1s)
                 System.out.println("TOO SLOW!!! You answered in: " + elapsedTime / 1000 + " seconds\n");
             } else if (strLower.equals(randWord) || strUpper.equals(randWord)) {
                 // NOTE: have to use .equals instead of  == since == will see if it refers to the same object and not the same value
@@ -35,9 +35,11 @@ public class GuessRealWord {
                 String c2 = correctionImproved.getCode();
 
                 if(correction.getFinalCost() <= 1 || c1.equals(c2)){ // if you are one letter off
-                    System.out.println("Did you mean: " + randWord + "\n");
+                    System.out.println("Did you mean: " + randWord);
+                    System.out.println("You answered in: " + elapsedTime / 1000 + " seconds\n");
                 }else{
-                    System.out.println("WRONG! \n");
+                    System.out.println("WRONG! ");
+                    System.out.println("You answered in: " + elapsedTime / 1000 + " seconds\n");
                 }
             }
         }

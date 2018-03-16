@@ -14,7 +14,7 @@ public class Main {
 //        SoundEx test = new SoundEx();
 //        test.Encode("Lee");
 //        System.out.println(test.getCode());
-        
+
     } // end main
 
 } // end main class

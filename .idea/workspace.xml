@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a719e666-8952-4594-941e-6636925431b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/out/production/Phonetic Game/GuessRealWord.class" afterPath="$PROJECT_DIR$/../Phonetic Game/out/production/Phonetic Game/GuessRealWord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/out/production/Phonetic Game/Main.class" afterPath="$PROJECT_DIR$/../Phonetic Game/out/production/Phonetic Game/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Phonetic Game/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/src/Game.java" afterPath="$PROJECT_DIR$/../Phonetic Game/src/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/src/GuessGibberishWord.java" afterPath="$PROJECT_DIR$/../Phonetic Game/src/GuessGibberishWord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/src/GuessLetter.java" afterPath="$PROJECT_DIR$/../Phonetic Game/src/GuessLetter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java" afterPath="$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Phonetic Game/src/Main.java" afterPath="$PROJECT_DIR$/../Phonetic Game/src/Main.java" />
     </list>
@@ -28,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="37" column="75" lean-forward="true" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
+              <caret line="37" column="66" lean-forward="false" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -125,8 +120,8 @@
         <option value="$PROJECT_DIR$/../Phonetic Game/src/Game.java" />
         <option value="$PROJECT_DIR$/../Phonetic Game/src/GuessGibberishWord.java" />
         <option value="$PROJECT_DIR$/../Phonetic Game/src/GuessLetter.java" />
-        <option value="$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java" />
         <option value="$PROJECT_DIR$/../Phonetic Game/src/Main.java" />
+        <option value="$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java" />
       </list>
     </option>
   </component>
@@ -315,16 +310,15 @@
       <workItem from="1519970639042" duration="20388000" />
       <workItem from="1520736731464" duration="21749000" />
       <workItem from="1521065791129" duration="6632000" />
-      <workItem from="1521226927600" duration="3396000" />
+      <workItem from="1521226927600" duration="3874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58311000" />
+    <option name="totallyTimeSpent" value="58789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -334,7 +328,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21102864" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38706258" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -622,7 +616,7 @@
     <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/GuessRealWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="37" column="75" lean-forward="true" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
+          <caret line="37" column="66" lean-forward="false" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -630,7 +624,7 @@
     <entry file="file://$PROJECT_DIR$/../Phonetic Game/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
