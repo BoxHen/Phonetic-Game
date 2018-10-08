@@ -46,12 +46,15 @@ PROJECT VISION:
 		Work in Progress...
 
 RUNNING THE PROGRAM:
+
 	on linux:
 		gcc -o 
 		./
+		
 	on windows:
 		cl
 
 Acknowledgement:
+
 	Used this repo's dictonary to generate random words. It contains ~10,000 most used English words
 		https://github.com/first20hours/google-10000-english.git
